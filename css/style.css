@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #dfe6e9;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('assets/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+    position: relative;
+    width: 80%;
+    min-height: 600px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 15px 35px rgba(116, 115, 115, 0.083);
+    border-radius: 20px;
+    border: 1px solid #fff;
+
+}
+nav{
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlist ul li a i{
+    margin-right: 60px;
+    color: rgb(0, 0, 0);
+}
+.navlist ul li a i:hover{
+    transition: 0.5s;
+    color: #4d4d4d;
+}
+
+.logo img {
+    width: 120px;
+}
+
+main h1{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.matkul{
+    background-color: #a3a3a3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: auto;
+    padding: 20px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 15px 35px rgba(116, 115, 115, 0.083);
+    border-radius: 20px;
+}
+.matkul h2{
+    font-size: 20px;
+    padding: 10px;
+}
+.matkul i{
+   padding: 30px;
+   border-radius: 7px;
+   background-color: #a29bfe;
+   color: #4b4971;
+    text-align: center;
+}
+.matkul p{
+    padding: 10px;
+    font-size: 9px;
+    text-align: center;
+    color: #797979;
+}
+
+.matkul a{
+    font-size: 10px;
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #55efc4;
+    color: #000;
+}
+.matkul a:hover{
+    transition: 0.5s;
+    box-shadow: 0 0px 15px rgba(124, 124, 124, 0.543);
+}
+.semester{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    text-align: center;
+    color: #797979;
+    font-size: 10px;
+}
+.eror{
+    text-align: center;
+    margin: 0;
+}
+.eror img{
+    width: 500px;
+}
+.eror h1{
+    font-size:80px;
+    margin: 0;
+}
